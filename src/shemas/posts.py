@@ -1,8 +1,8 @@
 POST_SCHEMA = {
-    "type": "Object",
+    "type": "object",
     "properties": {
         "id": {"type": "number"},
-        "title": {"type": "string", "enum": ["POST"]}
+        "title": {"type": "string"}
 
     },
     "required": ["id"]
