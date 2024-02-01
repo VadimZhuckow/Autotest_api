@@ -5,7 +5,7 @@ POST_SCHEMA = {
         "title": {"type": "string"}
 
     },
-    "required": ["id"]
-
+    "required":
+        ["id"]
 }
 # {'id': 1, 'title': 'Post 1'}
